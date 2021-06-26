@@ -1,0 +1,111 @@
+.profile-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-container {
+  flex: 1;
+}
+.user-posts-wrapper {
+  display: flex;
+  flex-flow: column;
+  flex: 1;
+  justify-content: center;
+  align-items: stretch;
+}
+.user-post-container {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+}
+.user-details-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: var(--platinum);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+}
+.user-details-wrapper p {
+  margin: 0;
+  padding: 5px;
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+.user-details span {
+  font-weight: bold;
+}
+.profile-following_names {
+  padding-left: 10px;
+}
+.follower-name {
+  background-color: white;
+  border-radius: 8px;
+  margin: 5px;
+}
+.unfollow-wrapper {
+  padding-left: 20px;
+}
+.follow-wrapper {
+  padding-left: 20px;
+}
+
+.edit-profile-container {
+  display: flex;
+  flex-flow: column;
+  background: white;
+  padding: 20px;
+}
+
+.profile-deatils {
+  float: right;
+}
+
+.post-heading {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.date-box {
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .profile-container {
+    max-width: 400px;
+  }
+  .user-details-wrapper {
+    max-width: 400px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .profile-container {
+    max-width: 600px;
+  }
+  .user-details-wrapper {
+    max-width: 600px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .profile-container {
+    max-width: 800px;
+  }
+  .user-details-wrapper {
+    max-width: 800px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .profile-container {
+    max-width: 800px;
+  }
+  .user-details-wrapper {
+    max-width: 800px;
+  }
+}

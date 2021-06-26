@@ -1,0 +1,48 @@
+.login-wrapper {
+  padding: 20px 40px;
+  background-color: var(--platinum);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.login-item {
+  font-size: 12px;
+  display: flex;
+  flex-flow: column;
+}
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+#submit-botton {
+  margin: 20px 0 0 0;
+}
+
+.login-wrapper input {
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.login-wrapper button {
+  outline: none;
+  border: none;
+  background-color: white;
+  margin: 10px 5px;
+}
+#login-button {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+#registration-button {
+  padding: 10px 20px;
+}
+#action-button {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
